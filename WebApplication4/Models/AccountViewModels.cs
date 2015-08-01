@@ -4,6 +4,7 @@ namespace WebApplication4.Models
 {
     public class ExternalLoginConfirmationViewModel
     {
+        //test
         [Required]
         [Display(Name = "User name")]
         public string UserName { get; set; }
