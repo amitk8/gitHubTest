@@ -7,11 +7,12 @@ namespace WebApplication4.Models
     {
     }
 
+    //Test By Arvind
     public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
     {
         public ApplicationDbContext()
             : base("DefaultConnection")
         {
-        }
+        } 
     }
 }
