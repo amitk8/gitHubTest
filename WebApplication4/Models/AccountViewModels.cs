@@ -12,6 +12,7 @@ namespace WebApplication4.Models
 
     public class ManageUserViewModel
     {
+        //Test Account Model Checkin
         [Required]
         [DataType(DataType.Password)]
         [Display(Name = "Current password")] 
