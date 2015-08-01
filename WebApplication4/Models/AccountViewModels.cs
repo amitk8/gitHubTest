@@ -12,7 +12,7 @@ namespace WebApplication4.Models
 
     public class ManageUserViewModel
     {
-        //dhsadjsadgsjadsgjh
+        //ghhh
         [Required]
         [DataType(DataType.Password)]
         [Display(Name = "Current password")] 
