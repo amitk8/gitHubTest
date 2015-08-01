@@ -8,7 +8,7 @@ namespace WebApplication4.Models
     }
 
     //Test By Arvind
-    public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
+    public class ApplicationDbContext : IdentityDbContext<ApplicationUser>  //Test Again
     {
         public ApplicationDbContext()
             : base("DefaultConnection")
