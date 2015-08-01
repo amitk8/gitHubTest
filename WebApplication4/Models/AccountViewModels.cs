@@ -14,7 +14,7 @@ namespace WebApplication4.Models
     {
         [Required]
         [DataType(DataType.Password)]
-        [Display(Name = "Current password")]
+        [Display(Name = "Current password")] 
         public string OldPassword { get; set; }
 
         [Required]
